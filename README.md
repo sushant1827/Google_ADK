@@ -91,6 +91,17 @@ Build sophisticated agents that can iteratively refine their outputs through fee
 For more detailed information, check out the official ADK documentation:
 - https://google.github.io/adk-docs/get-started/quickstart
 
+## Support
+
+Need help or run into issues? Join our free AI Developer Accelerator community on Skool:
+- [AI Developer Accelerator Community](https://www.skool.com/ai-developer-accelerator/about)
+
+In the community you'll find:
+- Weekly coaching and support calls
+- Early access to code from YouTube projects
+- A network of AI developers of all skill levels ready to help
+- Behind-the-scenes looks at how these apps are built
+
 ## Error handling
 
 ### 1.  If you're seeing a blank web page after running adk web, here’s something that might help. 
