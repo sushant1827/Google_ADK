@@ -30,8 +30,8 @@ initial_state = {
 
 async def main_async():
     # Set up Consant
-    APP_NAME = "Customer Support",
-    USER_ID = "jonh_doe",
+    APP_NAME = "Customer Support"
+    USER_ID = "jonh_doe"
 
     # Create a new session witrhj the initial state
     new_session = session_service.create_session(
