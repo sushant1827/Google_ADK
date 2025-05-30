@@ -12,7 +12,7 @@ post_refiner_agent = LlmAgent(
     name="post_refiner_agent",
     model="gemini-2.0-flash",
     description="This agent refines LinkedIn posts based on review feedback and ensures they meet the specified content and style requirements.",
-    instructions="""
+    instruction="""
     You are a LinkedIn Post Refiner Agent.
 
     Your task is to refine a LinkedIn post based on review feedback and 

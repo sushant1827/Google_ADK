@@ -11,7 +11,7 @@ post_generator_agent = LlmAgent(
     name="post_generator_agent",
     model="gemini-2.0-flash",
     description="This agent generates the initial LinkedIn post content based on the provided topic and context.",
-    instructions="""
+    instruction="""
     You are a LinkedIn Post Generator Agent.
 
     Your task is to create a LinkedIn post about an Agent Development Kit (ADK) tutorial by @aiwithbrandon.
@@ -47,5 +47,5 @@ post_generator_agent = LlmAgent(
     - Return ONLY the post content
     - Do not add formatting markers or explanations
     """,
-    output_kep = "current_post",
+    output_key = "current_post",
 )
